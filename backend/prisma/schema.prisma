@@ -1,0 +1,77 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+model Funcionario {
+  id              String   @id
+  nome            String
+  telefone        String
+  endereco        String
+  usuario         String   @unique
+  senha           String
+  nivelPermissao  String
+  etapas          EtapaFuncionario[]
+}
+
+model Aeronave {
+  id          Int      @id @default(autoincrement())
+  codigo      String   @unique
+  modelo      String
+  tipo        String
+  capacidade  Int
+  alcance     Int
+  pecas       Peca[]
+  etapas      Etapa[]
+  testes      Teste[]
+  relatorios  Relatorio[]
+}
+
+model Peca {
+  id          Int      @id @default(autoincrement())
+  nome        String
+  tipo        String
+  fornecedor  String
+  status      String
+  aeronaveId  Int
+  aeronave    Aeronave @relation(fields: [aeronaveId], references: [id])
+}
+
+model Etapa {
+  id           Int      @id @default(autoincrement())
+  nome         String
+  prazo        String
+  status       String
+  aeronaveId   Int
+  aeronave     Aeronave @relation(fields: [aeronaveId], references: [id])
+  funcionarios EtapaFuncionario[]
+}
+
+model EtapaFuncionario {
+  etapaId        Int
+  funcionarioId  String
+  etapa          Etapa       @relation(fields: [etapaId], references: [id])
+  funcionario    Funcionario @relation(fields: [funcionarioId], references: [id])
+
+  @@id([etapaId, funcionarioId])
+}
+
+model Teste {
+  id          Int      @id @default(autoincrement())
+  tipo        String
+  resultado   String
+  aeronaveId  Int
+  aeronave    Aeronave @relation(fields: [aeronaveId], references: [id])
+}
+
+model Relatorio {
+  id              Int      @id @default(autoincrement())
+  cliente         String
+  dataEntrega     String
+  detalhes        String   @db.Text
+  aeronaveId      Int
+  aeronave        Aeronave @relation(fields: [aeronaveId], references: [id])
+}
