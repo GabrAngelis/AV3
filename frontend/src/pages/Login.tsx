@@ -9,15 +9,19 @@ export default function Login() {
   const [senha, setSenha] = useState("")
   const [erro, setErro] = useState("")
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(
+    e: React.FormEvent
+  ) {
     e.preventDefault()
-    try {
-      login(usuario, senha)
-      navigate("/dashboard")
-    } catch (e: any) {
-      setErro(e.message)
-    }
+
+  try {
+    await login(usuario, senha)
+
+    navigate("/dashboard")
+  } catch (e: any) {
+    setErro(e.message)
   }
+}
 
   return (
     <div className="login-page">
