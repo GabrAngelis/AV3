@@ -34,6 +34,9 @@ export class RelatorioService {
         detalhes += `Alcance: ${aeronave.alcance} km\n\n`
         detalhes += `CLIENTE: ${cliente}\n`
         detalhes += `DATA DE ENTREGA: ${dataEntrega}\n\n`
+        if (cliente.toLowerCase().includes("santos dumont")) {
+            detalhes += "Mensagem Especial: A Aerocode presta homenagem ao Pai da Aviação.\n\n"
+        }
         detalhes += `PEÇAS\n`
         aeronave.pecas.forEach((p, i) => {
             detalhes += `[${i}] ${p.nome} | Tipo: ${p.tipo} | Fornecedor: ${p.fornecedor} | Status: ${p.status}\n`

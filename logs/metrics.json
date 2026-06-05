@@ -12836,5 +12836,495 @@
     "status": 200,
     "processamento_ms": 17,
     "timestamp": "2026-06-05T13:39:09.452Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/login",
+    "status": 200,
+    "processamento_ms": 235,
+    "timestamp": "2026-06-05T16:44:10.946Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 10,
+    "timestamp": "2026-06-05T16:44:10.999Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/funcionarios",
+    "status": 200,
+    "processamento_ms": 10,
+    "timestamp": "2026-06-05T16:44:11.005Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 200,
+    "processamento_ms": 17,
+    "timestamp": "2026-06-05T16:44:11.011Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:44:16.130Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:16.137Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/2323/etapas",
+    "status": 201,
+    "processamento_ms": 55,
+    "timestamp": "2026-06-05T16:44:25.666Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:25.673Z"
+  },
+  {
+    "metodo": "PATCH",
+    "rota": "/aeronaves/2323/etapas/3/iniciar",
+    "status": 200,
+    "processamento_ms": 10,
+    "timestamp": "2026-06-05T16:44:27.037Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:27.044Z"
+  },
+  {
+    "metodo": "PATCH",
+    "rota": "/aeronaves/2323/etapas/3/finalizar",
+    "status": 200,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:44:27.751Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:27.759Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/2323/testes",
+    "status": 201,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:44:30.601Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:30.608Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/2323/testes",
+    "status": 201,
+    "processamento_ms": 6,
+    "timestamp": "2026-06-05T16:44:34.408Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:34.415Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/2323/testes",
+    "status": 201,
+    "processamento_ms": 6,
+    "timestamp": "2026-06-05T16:44:37.329Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:44:37.335Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:40.231Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:44:40.237Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 4,
+    "timestamp": "2026-06-05T16:44:42.913Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 7,
+    "timestamp": "2026-06-05T16:44:42.917Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:42.924Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 8,
+    "timestamp": "2026-06-05T16:44:42.929Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:47.534Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:44:47.540Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:44:53.718Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:44:53.724Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 1,
+    "timestamp": "2026-06-05T16:44:56.253Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 7,
+    "timestamp": "2026-06-05T16:44:56.258Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:44:56.266Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 14,
+    "timestamp": "2026-06-05T16:44:56.278Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/relatorios",
+    "status": 201,
+    "processamento_ms": 25,
+    "timestamp": "2026-06-05T16:45:02.581Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:02.586Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:13.798Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:13.804Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/3333/pecas",
+    "status": 201,
+    "processamento_ms": 7,
+    "timestamp": "2026-06-05T16:45:21.387Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:21.394Z"
+  },
+  {
+    "metodo": "PATCH",
+    "rota": "/aeronaves/3333/pecas/4",
+    "status": 200,
+    "processamento_ms": 7,
+    "timestamp": "2026-06-05T16:45:22.985Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:22.990Z"
+  },
+  {
+    "metodo": "PATCH",
+    "rota": "/aeronaves/3333/pecas/4",
+    "status": 200,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:45:23.494Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:45:23.500Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/3333/etapas",
+    "status": 201,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:45:26.104Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:45:26.111Z"
+  },
+  {
+    "metodo": "PATCH",
+    "rota": "/aeronaves/3333/etapas/4/iniciar",
+    "status": 200,
+    "processamento_ms": 6,
+    "timestamp": "2026-06-05T16:45:26.856Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:45:26.863Z"
+  },
+  {
+    "metodo": "PATCH",
+    "rota": "/aeronaves/3333/etapas/4/finalizar",
+    "status": 200,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:45:27.255Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:45:27.261Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/3333/testes",
+    "status": 201,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:45:29.335Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:29.343Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/3333/testes",
+    "status": 201,
+    "processamento_ms": 6,
+    "timestamp": "2026-06-05T16:45:33.872Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:33.879Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/aeronaves/3333/testes",
+    "status": 201,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:45:39.120Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 200,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:45:39.129Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:45:41.541Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 3,
+    "timestamp": "2026-06-05T16:45:41.547Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:43.303Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 7,
+    "timestamp": "2026-06-05T16:45:43.307Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:43.312Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:45:43.316Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/relatorios",
+    "status": 201,
+    "processamento_ms": 7,
+    "timestamp": "2026-06-05T16:45:45.930Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:45:45.935Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/login",
+    "status": 200,
+    "processamento_ms": 2,
+    "timestamp": "2026-06-05T16:47:25.312Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:47:25.348Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 7,
+    "timestamp": "2026-06-05T16:47:25.353Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/funcionarios",
+    "status": 304,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:47:25.357Z"
+  },
+  {
+    "metodo": "POST",
+    "rota": "/login",
+    "status": 200,
+    "processamento_ms": 1,
+    "timestamp": "2026-06-05T16:47:32.239Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/aeronaves",
+    "status": 304,
+    "processamento_ms": 5,
+    "timestamp": "2026-06-05T16:47:32.278Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/relatorios",
+    "status": 304,
+    "processamento_ms": 6,
+    "timestamp": "2026-06-05T16:47:32.281Z"
+  },
+  {
+    "metodo": "GET",
+    "rota": "/funcionarios",
+    "status": 304,
+    "processamento_ms": 9,
+    "timestamp": "2026-06-05T16:47:32.285Z"
   }
 ]
