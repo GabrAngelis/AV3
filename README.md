@@ -72,6 +72,12 @@ Após criar o arquivo `.env`, execute as migrations do Prisma:
 npx prisma migrate dev
 ```
 
+Popular o banco de dados:
+
+```bash
+npm run seed
+```
+
 Executar o servidor:
 
 ```bash
@@ -124,15 +130,30 @@ As métricas coletadas foram:
 
 ### Resultados
 
+| Usuários Simultâneos | Latência (ms) | Processamento (ms) | Resposta (ms) |
+|---------------------|---------------|-------------------|---------------|
+| 1 | 1.32 | 2.38 | 3.70 |
+| 5 | 5.63 | 7.54 | 13.17 |
+| 10 | 12.40 | 14.33 | 26.73 |
+
 ### Gráfico
 <p align="center">
   <img src="img/graficodesempenho.png" width="900">
 </p>
+Observa-se que o aumento do número de usuários simultâneos provoca crescimento gradual da latência, do tempo de processamento e do tempo de resposta. Mesmo com 10 usuários simultâneos, os tempos permaneceram abaixo de 30 ms.
 
 ### Metodologia
 
-A latência e o tempo de resposta foram obtidos através do Autocannon durante testes com 1, 5 e 10 usuários simultâneos.
+Os testes foram realizados utilizando a ferramenta Autocannon, responsável por simular múltiplos usuários acessando simultaneamente a rota principal da aplicação.
 
-O tempo de processamento foi medido por meio de um middleware implementado no backend, responsável por registrar o tempo gasto pelo servidor para processar cada requisição.
+Foram executados três cenários:
 
-Os resultados demonstram que o sistema manteve estabilidade e baixo tempo de resposta mesmo com aumento da carga de usuários simultâneos.
+- 1 usuário simultâneo
+- 5 usuários simultâneos
+- 10 usuários simultâneos
+
+A latência e o tempo de resposta foram obtidos diretamente dos resultados produzidos pelo Autocannon.
+
+Para medir o tempo de processamento, foi desenvolvido um middleware personalizado no backend que registra o instante de início e término de cada requisição, calculando o tempo gasto pelo servidor para processar a operação.
+
+Os dados coletados foram armazenados em arquivos de log e posteriormente utilizados para gerar os gráficos apresentados neste relatório.
