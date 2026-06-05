@@ -4,7 +4,7 @@
 
 Projeto desenvolvido para a matéria de Programação orientada a objetos, atividade de avaliação 3.
 
-O AeroCode é um sistema web para gerenciamento do processo de fabricação de aeronaves.
+O Aerocode é um sistema web para gerenciamento do processo de fabricação de aeronaves.
 
 A aplicação permite controlar todas as etapas da produção, desde o cadastro da aeronave até a emissão do relatório final de aprovação.
 
