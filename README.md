@@ -56,13 +56,17 @@ Instalar dependências:
 npm install
 ```
 
-Criar .env na pasta backend e seguir o modelo:
-```bash
+Criar um arquivo `.env` na pasta `backend` seguindo o modelo abaixo:
+
+```env
 DATABASE_URL="mysql://root:suasenha@localhost:3306/aerocode"
 JWT_SECRET="chave_secreta"
-PORT=3000```
+PORT=3000
+```
 
-Executar as migrations:
+Substitua `suasenha` pela senha configurada no seu MySQL.
+
+Após criar o arquivo `.env`, execute as migrations do Prisma:
 
 ```bash
 npx prisma migrate dev
