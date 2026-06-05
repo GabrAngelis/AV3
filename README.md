@@ -57,7 +57,7 @@ npm install
 ```
 
 Criar .env na pasta backend e seguir o modelo:
-```
+```bash
 DATABASE_URL="mysql://root:suasenha@localhost:3306/aerocode"
 JWT_SECRET="chave_secreta"
 PORT=3000```
