@@ -1,10 +1,10 @@
-# AeroCode
+# Aerocode
 
 ## Sobre o Projeto
 
 Projeto desenvolvido para a matéria de Programação orientada a objetos, atividade de avaliação 3.
 
-O AeroCode é um sistema web para gerenciamento do processo de fabricação de aeronaves.
+O Aerocode é um sistema web para gerenciamento do processo de fabricação de aeronaves.
 
 A aplicação permite controlar todas as etapas da produção, desde o cadastro da aeronave até a emissão do relatório final de aprovação.
 
@@ -89,6 +89,16 @@ O backend ficará disponível em:
 ```text
 http://localhost:3000
 ```
+
+## Usuários Padrão
+
+Após executar a seed, os seguintes usuários estarão disponíveis:
+
+| Perfil | Usuário | Senha |
+|----------|----------|----------|
+| Administrador | admin | admin123 |
+| Engenheiro | engenheiro | eng123 |
+| Operador | operador | op123 |
 
 ### Frontend
 
