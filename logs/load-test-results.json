@@ -1,0 +1,35 @@
+[
+  {
+    "usuarios": 1,
+    "latencia_media_ms": 8.28,
+    "latencia_p50_ms": 8,
+    "latencia_p99_ms": 12,
+    "tempo_resposta_medio_ms": 8.28,
+    "requisicoes_total": 570,
+    "requisicoes_por_segundo": 114,
+    "erros": 0,
+    "timeouts": 0
+  },
+  {
+    "usuarios": 5,
+    "latencia_media_ms": 38.65,
+    "latencia_p50_ms": 38,
+    "latencia_p99_ms": 57,
+    "tempo_resposta_medio_ms": 38.65,
+    "requisicoes_total": 639,
+    "requisicoes_por_segundo": 127.8,
+    "erros": 0,
+    "timeouts": 0
+  },
+  {
+    "usuarios": 10,
+    "latencia_media_ms": 80.34,
+    "latencia_p50_ms": 80,
+    "latencia_p99_ms": 101,
+    "tempo_resposta_medio_ms": 80.34,
+    "requisicoes_total": 615,
+    "requisicoes_por_segundo": 123,
+    "erros": 0,
+    "timeouts": 0
+  }
+]
