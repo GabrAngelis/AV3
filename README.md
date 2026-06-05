@@ -90,6 +90,17 @@ O backend ficará disponível em:
 http://localhost:3000
 ```
 
+```markdown
+### Usuários Padrão
+
+Após executar a seed, os seguintes usuários estarão disponíveis:
+
+| Perfil | Usuário | Senha |
+|----------|----------|----------|
+| Administrador | admin | admin123 |
+| Engenheiro | engenheiro | eng123 |
+| Operador | operador | op123 |
+
 ### Frontend
 
 Entrar na pasta do frontend:
