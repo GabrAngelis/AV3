@@ -91,7 +91,7 @@ http://localhost:3000
 ```
 
 ```markdown
-### Usuários Padrão
+Usuários Padrão
 ```
 
 Após executar a seed, os seguintes usuários estarão disponíveis:
