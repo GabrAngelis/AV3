@@ -57,9 +57,10 @@ npm install
 ```
 
 Criar .env na pasta backend e seguir o modelo:
-```DATABASE_URL="mysql://root:suasenha@localhost:3306/aerocode"
-  JWT_SECRET="chave_secreta"
-  PORT=3000```
+```
+DATABASE_URL="mysql://root:suasenha@localhost:3306/aerocode"
+JWT_SECRET="chave_secreta"
+PORT=3000```
 
 Executar as migrations:
 
