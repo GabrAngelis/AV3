@@ -1,35 +1,32 @@
 [
   {
     "usuarios": 1,
-    "latencia_media_ms": 8.28,
-    "latencia_p50_ms": 8,
-    "latencia_p99_ms": 12,
-    "tempo_resposta_medio_ms": 8.28,
-    "requisicoes_total": 570,
-    "requisicoes_por_segundo": 114,
-    "erros": 0,
-    "timeouts": 0
+    "latencia_ms": 1.32,
+    "processamento_ms": 2.38,
+    "tempo_resposta_ms": 3.7,
+    "latencia_p99_ms": 6,
+    "requisicoes_total": 1174,
+    "requisicoes_por_segundo": 234.8,
+    "erros": 0
   },
   {
     "usuarios": 5,
-    "latencia_media_ms": 38.65,
-    "latencia_p50_ms": 38,
-    "latencia_p99_ms": 57,
-    "tempo_resposta_medio_ms": 38.65,
-    "requisicoes_total": 639,
-    "requisicoes_por_segundo": 127.8,
-    "erros": 0,
-    "timeouts": 0
+    "latencia_ms": 5.63,
+    "processamento_ms": 7.54,
+    "tempo_resposta_ms": 13.17,
+    "latencia_p99_ms": 23,
+    "requisicoes_total": 1825,
+    "requisicoes_por_segundo": 365,
+    "erros": 0
   },
   {
     "usuarios": 10,
-    "latencia_media_ms": 80.34,
-    "latencia_p50_ms": 80,
-    "latencia_p99_ms": 101,
-    "tempo_resposta_medio_ms": 80.34,
-    "requisicoes_total": 615,
-    "requisicoes_por_segundo": 123,
-    "erros": 0,
-    "timeouts": 0
+    "latencia_ms": 12.4,
+    "processamento_ms": 14.33,
+    "tempo_resposta_ms": 26.73,
+    "latencia_p99_ms": 45,
+    "requisicoes_total": 1831,
+    "requisicoes_por_segundo": 366.2,
+    "erros": 0
   }
 ]

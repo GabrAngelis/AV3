@@ -1,6 +1,8 @@
 import { Request, Response, NextFunction } from "express"
-import fs from "fs"
-import path from "path"
+import * as fs from "fs"
+import * as path from "path"
+
+const logPath = path.join(process.cwd(),"../logs/metrics.json")
 
 export function metricsMiddleware(req: Request, res: Response, next: NextFunction) {
     const inicio = Date.now()
@@ -16,22 +18,15 @@ export function metricsMiddleware(req: Request, res: Response, next: NextFunctio
             timestamp: new Date().toISOString()
         }
 
-        // Exibe no terminal
         console.log(`[METRICS] ${log.metodo} ${log.rota} → ${log.processamento_ms}ms | status: ${log.status}`)
 
-        // Salva em arquivo para análise posterior
-        const logPath = path.join(__dirname, "../../logs/metrics.json")
         const dir = path.dirname(logPath)
-
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
 
         let logs: any[] = []
         if (fs.existsSync(logPath)) {
-            try {
-                logs = JSON.parse(fs.readFileSync(logPath, "utf-8"))
-            } catch {
-                logs = []
-            }
+            try { logs = JSON.parse(fs.readFileSync(logPath, "utf-8")) }
+            catch { logs = [] }
         }
 
         logs.push(log)
